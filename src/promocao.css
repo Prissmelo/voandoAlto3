@@ -18,14 +18,29 @@ h6 {
 Card {
  display: flex;
  text-align: center;
+ padding-left: 200px;
+
 }
 
 CardGroup {
     text-align: center;
-
+    padding-left: 200px;
 }
 
 Card.Body {
     text-align: center;
+    padding-left: 200px;
+}
 
+.container {
+    align-items: center;
+    padding-left: 20%;
+
+
+}
+
+.mb-1 {
+  text-align: center;
+  display:inline-table;
+   padding: auto;
 }

@@ -4,12 +4,13 @@ import Routes from "./routes/Routes";
 import {Link} from "react-router-dom"
 import NavBar from './NavBar';
 import './NavBar.css';
-import footer from './footer';
-import './footer.css';
+import Footer from './Footer';
+import './Footer.css';
+
 
 function App() {
   return (
-    <>
+    <>  
       <header>
           <NavBar></NavBar>
           <div className="App">
@@ -28,6 +29,11 @@ function App() {
         </div>
         
       </section1>
+      
+     
+     <Footer/>
+     
+      
       
     </>
     
