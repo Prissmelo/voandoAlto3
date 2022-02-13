@@ -1,0 +1,31 @@
+a {
+ color:black;
+ text-align: center;
+ align-items: center;
+}
+
+h3,h5,h6,p {
+    text-align: center;
+
+
+}
+
+h6 {
+   color:red;
+
+
+}
+Card {
+ display: flex;
+ text-align: center;
+}
+
+CardGroup {
+    text-align: center;
+
+}
+
+Card.Body {
+    text-align: center;
+
+}
