@@ -1,0 +1,284 @@
+@charset "ISO-8859-1";
+
+nav {
+    display:flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: white;
+  
+}
+
+.pacote2 {
+    display: inline-block;
+    margin: 200px;
+    margin-left: 160px ;
+    margin-top: 10px;
+    padding: 70px;
+    margin-bottom: 20px;
+    background-image:url(fotosdeviagem.png) ;
+}
+
+
+.pacote2 a{
+	text-align: center;
+	
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color:white;
+  
+}
+
+
+a{
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 20px;
+}
+
+h5 {
+color: rgb(100, 111, 122);
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+h6 {
+color:black;
+
+}
+
+label {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+nav-list li {
+    letter-spacing: 5px;
+    margin-left: 10%;  
+    align-items: center; 
+}
+
+.nav-list {
+
+ margin-right: 200px;    
+
+}
+
+.capa{
+    background: url("viajarpelomundo2.png") no-repeat center center;
+    height: 100vh;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+
+}
+
+main2 {
+    background: url("motanha.png") no-repeat center center;
+    height: 50vh;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
+.logo { 
+    display: flex;
+    padding-left: 400px;    
+   
+} 
+
+main1 {
+   
+    background-size: cover;
+    height: 100vh;          
+    background-color: white;   
+}
+
+
+.table{
+    align-items: center;
+    justify-items: center;
+    padding: none;
+    margin: none;
+    border: 0;
+}
+
+h5 {
+
+text-decoration-style:solid;
+}
+
+.pacote {
+    display:flex;
+    margin: 70px;
+    margin-top: 20px;
+    padding: 90px;
+    margin-bottom: 20px;
+    background-image:url(fotosdeviagem.png);
+}
+
+
+.intervalo{
+ background-image:url(wallpaper.png);
+
+}
+
+.pacote1 ul li{
+    display:flex; 
+    display: inline-block;
+    float: left;
+    margin: 80px;
+    margin-top: 10px;
+    padding: 70px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    margin-right: 40px;
+    
+}
+.estilo {
+  
+   display: flex;
+   padding-bottom: 10%;
+   padding-top: 5%;
+}
+
+
+.pacote5{
+ margin-top: 3%;
+ padding-left: 400px;
+ margin-bottom: 5%;
+
+}
+
+.card1{
+ background: url(travel.png) center center;
+ padding-left: 20%;
+ padding-top: 2%;
+ 
+
+}
+
+
+
+.card-body1 {
+  padding-left: 10%;
+  padding-bottom: 3%;
+  
+}
+
+
+
+/*footer*/
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+footer{
+  position:relative;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: rgba(17, 53, 87, 0.959);
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 10px;
+  padding-bottom: 1px;
+  color: #fff;
+
+}
+
+.footer-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+
+}
+
+.socials{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0 3rem 0;
+
+}
+
+.socials li{
+   margin:0 10px;
+
+}
+
+.socials a{
+ text-decoration: none;
+ color: #fff;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+
+}
+
+.socials a:hover svg{
+  color: aqua;
+
+}
+
+.footer-bottom{
+  background: rgb(1, 28, 53);
+  width: 100vw;
+  padding: 1px;
+  text-align: center;
+
+}
+
+.footer-bottom p   {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+   text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+
